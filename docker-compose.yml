@@ -11,7 +11,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - ./servidorJS:/usr/src/app
+      - ./servidroJS:/usr/src/app
       - /usr/src/app/node_modules
     networks:
       - docker-websocket-network
